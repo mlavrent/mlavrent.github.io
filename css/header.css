@@ -1,0 +1,13 @@
+#profilePic {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+#profileName {
+    color: black;
+    text-decoration: none;
+    
+    font-weight: bold;
+    font-size: 100px;
+    font-family: "Biko", "Helvetica", "Arial", "sans-serif";
+}
