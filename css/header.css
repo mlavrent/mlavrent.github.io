@@ -8,6 +8,8 @@ a {
     border-radius: 100%;
     
     display: inline-block;
+    vertical-align: middle;
+    margin: 30px;
 }
 #profileName {
     font-weight: bold;
@@ -15,6 +17,6 @@ a {
     font-family: "Biko", "Helvetica", "Arial", "sans-serif";
     
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: 0px;
+    vertical-align: middle;
 }   
