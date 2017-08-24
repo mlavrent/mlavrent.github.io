@@ -19,4 +19,18 @@ a {
     display: inline-block;
     margin: 0px;
     vertical-align: middle;
-}   
+}
+
+#profile {
+    display: inline-block;
+}
+
+.charms {
+    font-size: 30px;
+    color: #aaaaaa;
+    margin: 8px;
+    vertical-align: middle;
+}
+.charms:hover {
+    color: black;
+}
