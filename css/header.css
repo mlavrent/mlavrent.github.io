@@ -1,13 +1,20 @@
+a {
+    text-decoration: none;
+    color: black;
+}
 #profilePic {
     width: 100px;
     height: 100px;
     border-radius: 100%;
+    
+    display: inline-block;
 }
 #profileName {
-    color: black;
-    text-decoration: none;
-    
     font-weight: bold;
-    font-size: 100px;
+    font-size: 60px;
     font-family: "Biko", "Helvetica", "Arial", "sans-serif";
-}
+    
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}   
