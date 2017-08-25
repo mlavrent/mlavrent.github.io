@@ -28,8 +28,16 @@ a {
     display: inline-block;
     font-family: "Helvetica", "Arial", "sans-serif";
     font-size: 30px;
-    text-decoration: underline;
+    font-weight: 600;
     vertical-align: middle;
+    margin: 25px;
+    
+    border-bottom: solid 5px #f63c3c;
+}
+#linksContainer {
+    display: inline-block;
+    position: relative;
+    right: -20%;
 }
 
 .charms {
@@ -42,8 +50,9 @@ a {
     color: black;
 }
 #charmSection {
-    display: inline-block;
-    float: right;
+    position: fixed;
+    right: 0;
+    top: 0;
     margin: 5px;
 }
 
