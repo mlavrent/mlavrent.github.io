@@ -27,7 +27,7 @@ a {
 .inP {
     margin: 0 25px;
     position: relative;
-    top: 60%;
+    top: 45%;
 }
 .links {
     font-family: "Arial", "sans-serif";
@@ -45,7 +45,7 @@ a {
 .linkBox {
     position: relative;
     display: inline-block;
-    height: 110px;
+    height: 140px;
     background-color: #494949;
 }
 .linkBox:hover {
