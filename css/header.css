@@ -25,19 +25,25 @@ a {
 }
 
 .links {
-    display: inline-block;
     font-family: "Helvetica", "Arial", "sans-serif";
     font-size: 30px;
     font-weight: 600;
-    vertical-align: middle;
-    margin: 25px;
+    color: white;
     
-    border-bottom: solid 5px #f63c3c;
+    vertical-align: bottom;
+    text-align: center;
+    margin: 0px 20px;
 }
-#linksContainer {
-    display: inline-block;
+.linkBox {
     position: relative;
-    right: -20%;
+    display: inline-block;
+    height: 80px;
+    background-color: #3385ff;
+}
+#linkContainer {
+    position: absolute;
+    top: 0;
+    left: 50%;
 }
 
 .charms {
