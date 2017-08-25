@@ -24,21 +24,32 @@ a {
     display: inline-block;
 }
 
+.inP {
+    margin: 0 25px;
+    position: relative;
+    top: 60%;
+}
 .links {
-    font-family: "Helvetica", "Arial", "sans-serif";
+    font-family: "Arial", "sans-serif";
     font-size: 30px;
     font-weight: 600;
     color: white;
     
-    vertical-align: bottom;
+    display: inline-block;
+    height: 100%;
     text-align: center;
-    margin: 0px 20px;
+    margin: 0;
+    position: relative;
+    
 }
 .linkBox {
     position: relative;
     display: inline-block;
-    height: 80px;
-    background-color: #3385ff;
+    height: 110px;
+    background-color: #494949;
+}
+.linkBox:hover {
+    height: 120px;
 }
 #linkContainer {
     position: absolute;
