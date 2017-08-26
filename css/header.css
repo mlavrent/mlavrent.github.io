@@ -79,4 +79,8 @@
     width: 100%;
     border-bottom: solid 5px #DDDDDD;
     background-color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
