@@ -65,6 +65,9 @@
 .charms:hover {
     color: black;
 }
+.charmLink {
+    text-decoration: none;
+}
 #charmSection {
     position: fixed;
     right: 0;
