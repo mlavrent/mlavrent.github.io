@@ -1,4 +1,22 @@
 body {
     margin: 0px;
     background-color: #f0f0f0;
+    font-family: "Arial", "sans-serif";
+}
+h1 {
+    font-family: "Biko", "Arial", "sans-serif";
+}
+a {
+    text-decoration: underline;
+    color: #469fb3;
+}
+
+#about{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+#about p {
+    text-align: justify;
+    font-size: 16px;
 }
