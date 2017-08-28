@@ -22,6 +22,10 @@ a {
     margin: 0 20px;
 }
 
+
+#photoTitle {
+    text-align: center;
+}
 #dotContainer {
     margin: auto;
     text-align: center;
@@ -34,4 +38,9 @@ a {
     
     margin: 5px;
     display: inline-block;
+}
+#photos img {
+    display: none;
+    margin: 0 auto;
+    width: 40%;
 }
