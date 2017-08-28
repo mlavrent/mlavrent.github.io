@@ -69,9 +69,7 @@
     text-decoration: none;
 }
 #charmSection {
-    position: fixed;
-    right: 0;
-    top: 0;
+    float: right;
     margin: 5px;
 }
 
