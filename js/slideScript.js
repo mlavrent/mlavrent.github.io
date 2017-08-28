@@ -1,22 +1,30 @@
-var curPhoto = 0;
-var timeToSwitch = 8;
+var curPhoto = -1;
+var slideTime = 1000;
+var timeToSwitch = 0;
 
 $(function(){
     // Initialize the dots and the images
-    let numDots = 0;
+    var numDots = 0;
     for(img in imgList) {
         $("#dotContainer").append("<div class=\"dot\" num=\"" + numDots + "\"></div>");
         numDots++;
     }
     
-    
     $(".dot").click(function(){
-        $(this).css('color', 'black')
-        // change curPhoto value
-        timeToSwitch = 8;
-    })
+        $(".dot").css('background-color', '#999999');
+        $(this).css('background-color', 'black');
+        timeToSwitch = new Date().getTime() + slideTime;
+        curPhoto = parseInt($(this).attr("num"));
+    });
     
-    function mainLoop() {
-        
-    } 
+    setInterval(function(){
+        time = new Date().getTime();
+        if(time > timeToSwitch) {
+            timeToSwitch = time + slideTime;
+            curPhoto = (curPhoto + 1) % numDots;
+
+            $(".dot").css('background-color', '#999999');
+            $("[num=" + curPhoto + "]").css('background-color', 'black');
+        }
+    }, 500);
 });
