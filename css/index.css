@@ -25,6 +25,10 @@ a {
 
 #photoTitle {
     text-align: center;
+    margin-bottom: 0;
+}
+#description {
+    margin: 0;
 }
 #dotContainer {
     margin: auto;
@@ -42,5 +46,5 @@ a {
 #photos img {
     display: none;
     margin: 0 auto;
-    height: 250px;
+    height: 270px;
 }
