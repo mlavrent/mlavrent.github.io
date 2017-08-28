@@ -20,3 +20,17 @@ a {
     text-align: justify;
     font-size: 16px;
 }
+
+#dotContainer {
+    margin: auto;
+    text-align: center;
+}
+.dot {
+    background-color: #777777;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    
+    margin: 5px;
+    display: inline-block;
+}
