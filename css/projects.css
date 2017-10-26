@@ -8,7 +8,6 @@ body {
     margin: 50px 10% 50px 10%;
     text-align: center;
 }
-
 .projBox {
     width: 250px;
     height: 250px;
@@ -17,7 +16,7 @@ body {
     
     margin: 5px;
     border-radius: 10%;
-    background-color: green;
+    background: linear-gradient(180deg, red 60%, white 40%);
     display: inline-block;
     text-align: center;
     
@@ -27,8 +26,10 @@ body {
     font-size: 20px;
     text-align: left;
 }
-.projBox div {
-    background-color: white;
-    height: 30%;
-    width: 100%;
+.projBox h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    position: relative;
+    top: 60%;
 }
