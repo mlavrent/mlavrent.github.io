@@ -6,3 +6,4 @@ $(function() {
         $("#projTable").append(newString);
     }
 });
+// TODO: figure out why single-line boxes have margins???

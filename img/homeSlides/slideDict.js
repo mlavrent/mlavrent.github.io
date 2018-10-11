@@ -7,8 +7,7 @@ class SlideImage {
 }
 
 var imgList = [
-    new SlideImage("back.png", "Robots, Robots Everywhere", ""),
-    new SlideImage("img 1.jpg", "Ski Real Fast", ""),
-    new SlideImage("jul.jpg", "FRC Team 4557", ""),
-    new SlideImage("me1.jpg", "Me at School", "")
+    new SlideImage("brown-logo.png", "The Start of College", "I've just entered my freshman year at Brown."),
+    new SlideImage("dcmp-robot.jpg", "FIRST World Championships Run", "For my last season, a World Championships run."),
+    new SlideImage("nightroitsky.jpg", "St. Petersburg", "It's the most beautiful city, I think."),
 ];
