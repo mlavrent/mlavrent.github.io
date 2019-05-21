@@ -2,34 +2,35 @@
 
 <div id="header">
     <link rel="stylesheet" type="text/css" href="css/header.css" />
-    <div id="profile">
-        <a href="index.html"><img src="img/profile.png" id="profilePic" /></a>
-        <a href="index.html"><p id="profileName">mlavrentyev</p></a>
+    <div class="headerSec">
+        <a href="index.html"><img src="img/profile.jpg" id="profilePic" /></a>
+        <a href="index.html" id="profileName"></a>
     </div>
-    <div id="linkContainer">
-        <div class="linkBox" id="index">
-            <a href="index.html" class="links"><p class="inP">Home</p></a>
-        </div>
-        <div class="linkBox" id="projects">
-            <a href="projects.html" class="links"><p class="inP">Projects</p></a>
-        </div>
-        <div class="linkBox" id="blog">
-            <a href="blog.html" class="links"><p class="inP">Blog</p></a>
-        </div>
+
+    <div class="headerSec" id="links">
+        <a class="pageLink" href="about.html">about me</a>
+        <a class="pageLink" href="index.html">projects</a>
+        <a class="pageLink" href="data/resume.pdf">résumé</a>
     </div>
-    <div id="charmSection">
+
+    <div class="headerSec" id="hamburgerIcon">
+        <i class="fas fa-bars"></i>
+    </div>
+
+
+    <div id="charms">
         <a href="mailto:lavrema@outlook.com" class="charmLink">
-            <i class="fa fa-envelope-o charms"></i>
+            <i class="far fa-envelope charm"></i>
         </a>
         <a href="https://www.linkedin.com/in/mark-lavrentyev-674830122" target="_blank" class="charmLink">
-            <i class="fa fa-linkedin-square charms"></i>
+            <i class="fab fa-linkedin charm"></i>
         </a>
-        <a href="https://www.instagram.com/mark_andthebackpack/" target="_blank" class="charmLink">
-            <i class="fa fa-instagram charms"></i>
+        <a href="https://www.twitter.com/mark_lavrentyev/" target="_blank" class="charmLink">
+            <i class="fab fa-twitter charm"></i>
         </a>
         <a href="https://github.com/MLavrentyev" target="_blank" class="charmLink">
-            <i class="fa fa-github charms"></i>
+            <i class="fab fa-github charm"></i>
         </a>
     </div>
 </div>
-    
+<script src="js/header.js"></script>
