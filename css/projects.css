@@ -23,6 +23,7 @@ h1, h2 {
     margin: 10px;
     padding: 10px 15px;
     box-sizing: border-box;
+    border-radius: 7px;
 
     display: grid;
     grid-template-columns: 1.4fr 1fr;
@@ -35,6 +36,7 @@ h1, h2 {
     transform: translate(0, -4px);
 
     box-shadow: 0 2px 4px 0 #0000001e, 0 4px 8px 0 #0000002f;
+    cursor: pointer;
 }
 
 .project div {
