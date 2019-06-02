@@ -26,6 +26,7 @@ function setHeader() {
 }
 
 function hideHamburger() {
+    closeSideNav();
     $("#links").show();
     $("#hamburgerIcon").hide();
 }
@@ -55,3 +56,23 @@ function growTitle() {
 $("#hamburgerIcon").click(function() {
     $("#hamburgerMenu")
 });
+
+
+let sideNavOpen = false;
+function toggleSideNav() {
+    if (sideNavOpen) {
+        sideNavOpen = false;
+        closeSideNav();
+    } else {
+        sideNavOpen = true;
+        openSideNav();
+    }
+}
+function openSideNav() {
+    console.log("opening");
+    $("#main").css("right", "250px");
+}
+function closeSideNav() {
+    console.log("closing");
+    $("#main").css("right", "0");
+}
