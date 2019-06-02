@@ -1,5 +1,6 @@
 body, html {
     min-width: 310px;
+    margin: 0;
 }
 
 #header {
@@ -43,6 +44,9 @@ body, html {
     display: inline-block;
     margin: 0px;
     vertical-align: middle;
+}
+#profileName:hover {
+    color: #393939;
 }
 
 .pageLink {
