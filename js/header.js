@@ -70,9 +70,13 @@ function toggleSideNav() {
 }
 function openSideNav() {
     console.log("opening");
+    $("#sideNav").show();
     $("#main").css("right", "250px");
 }
 function closeSideNav() {
     console.log("closing");
     $("#main").css("right", "0");
+    $("#main").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function() {
+        $("#sideNav").hide();
+    });
 }
