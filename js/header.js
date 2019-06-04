@@ -69,14 +69,18 @@ function toggleSideNav() {
     }
 }
 function openSideNav() {
-    console.log("opening");
     $("#sideNav").show();
     $("#main").css("right", "250px");
+    $("#hamburger").hide();
+    $("#closeHamburger").show();
 }
 function closeSideNav() {
-    console.log("closing");
     $("#main").css("right", "0");
-    $("#main").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function() {
-        $("#sideNav").hide();
+    $("#main").bind("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", function() {
+        if (!sideNavOpen) {
+            $("#sideNav").hide();
+        }
     });
+    $("#closeHamburger").hide();
+    $("#hamburger").show();
 }
