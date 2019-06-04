@@ -1,5 +1,6 @@
 body, html {
     min-width: 310px;
+    height: 100%;
     margin: 0;
 }
 
