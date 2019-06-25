@@ -20,6 +20,13 @@ h3:hover {
     background-color: #085c91;
 }
 
+p, td {
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+}
+p:not(:first-child) {
+    text-indent: 1em;
+}
+
 #content {
     margin: 40px auto;
     max-width: 700px;
