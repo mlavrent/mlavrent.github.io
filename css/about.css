@@ -64,3 +64,9 @@ table th {
     margin: 30px;
     display: flex;
 }
+
+
+@font-face {
+  font-family: Biko;
+  src: url("/fonts/Biko_Regular.otf") format("otf");
+}

@@ -63,3 +63,8 @@ h1, h2 {
     max-height: 100%;
 }
 
+@font-face {
+  font-family: Biko;
+  src: url("/fonts/Biko_Regular.otf") format("otf");
+}
+
