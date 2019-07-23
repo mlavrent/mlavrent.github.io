@@ -20,14 +20,47 @@ h3:hover {
     background-color: #085c91;
 }
 
-p, td {
+p, td, th {
     font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
 }
 p:not(:first-child) {
     text-indent: 1em;
 }
 
+table {
+    margin: 8px auto;
+    border-collapse: collapse;
+}
+table tr {
+    height: 40px;
+}
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table tr:nth-child(even) {background-color: #f2f2f2;}
+.content-row:hover {background-color: #ddd !important;}
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #085c91;
+    color: white;
+}
+
+#classes td:nth-child(1), #classes td:nth-child(3), #classes th:nth-child(1), #classes th:nth-child(3){
+    text-align: center;
+}
+#classes td:nth-child(2) {
+    width: 400px;
+}
+
 #content {
     margin: 40px auto;
     max-width: 700px;
+}
+
+.experience {
+    margin: 30px;
+    display: flex;
 }
