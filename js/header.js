@@ -1,8 +1,4 @@
 
-$(function(){
-    $("#outerHeader").load("header.html");
-});
-
 $(setHeader);
 $(window).resize(setHeader);
 
