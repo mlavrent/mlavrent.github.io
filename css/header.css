@@ -43,7 +43,7 @@ body, html {
 
 @font-face {
   font-family: Biko;
-  src: url("../fonts/Biko_Regular.otf") format("otf");
+  src: url("../fonts/Biko_Regular.otf") format("opentype");
 }
 
 #header {
