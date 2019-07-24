@@ -42,8 +42,14 @@ body, html {
 
 
 @font-face {
-  font-family: Biko;
-  src: url("../fonts/Biko_Regular.otf") format("opentype");
+    font-family: Biko;
+    font-weight: normal;
+    src: url("../fonts/Biko_Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: Biko;
+    font-weight: bold;
+    src: url("../fonts/Biko_Bold.otf") format("opentype");
 }
 
 #header {
