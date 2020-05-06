@@ -35,10 +35,10 @@ table tr {
     height: 40px;
 }
 table td, table th {
-    border: 1px solid #aaa;
+    border: 1px solid var(--mid-gray);
     padding: 8px;
 }
-table tr:nth-child(even) {background-color: #e5e5e5;}
+table tr:nth-child(even) {background-color: var(--gray);}
 table th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -74,9 +74,19 @@ table th {
 }
 
 .company {
-    font-size: 1em;
+    display: inline-block;
+    margin-top: 1px;
+    font-size: 1.07em;
     font-weight: 500;
     font-style: italic;
+}
+
+.timeline {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 8px;
+    color: var(--mid-gray);
 }
 
 

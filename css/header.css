@@ -4,10 +4,23 @@
     --light-gray: #a0a0a0;
     --mid-gray: #777777;
     --gray: #393939;
+    --darker-gray: #323232;
     --dark-gray: #2d2d2d;
 
-    --orange: #f48024;
-    --light-orange: #ff901e;
+    --accent: #f48024;
+    --light-accent: #ff901e;
+    --muted-accent: #774014;
+
+    --dark-blue:
+}
+
+::selection {
+    background-color: var(--muted-accent);
+    color: var(--white);
+}
+::-moz-selection {
+    background-color: var(--muted-accent);
+    color: var(--white);
 }
 
 body, html {
@@ -42,7 +55,7 @@ body, html {
 #sideNav a {
     display: block;
     text-decoration: none;
-    color: var(--light-gray);
+    color: var(--mid-gray);
     font-family: "Biko", "Helvetica", "Arial", "sans-serif";
     font-size: 26px;
 
@@ -126,17 +139,18 @@ body, html {
     justify-content: center;
     text-decoration: none;
     color: var(--white);
-    background-color: var(--orange);
+    background-color: var(--accent);
     font-size: 1.2em;
 }
 .pageLink:hover {
-    background-color: var(--light-orange);
+    background-color: var(--light-accent);
 }
 
 #hamburgerIcon {
     font-size: 2em;
     position: relative;
     bottom: -5px;
+    color: var(--mid-gray)
 }
 #hamburgerIcon:hover {
     color: var(--white);
