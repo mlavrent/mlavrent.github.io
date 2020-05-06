@@ -64,6 +64,13 @@ table th {
     display: flex;
 }
 
+.experience img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .exp-desc {
     margin-left: 17px;
 }
