@@ -1,13 +1,26 @@
+:root {
+    --white: #f5f5f5;
+    --dark-white: #c5c5c5;
+    --light-gray: #a0a0a0;
+    --mid-gray: #777777;
+    --gray: #393939;
+    --dark-gray: #2d2d2d;
+
+    --orange: #f48024;
+    --light-orange: #ff901e;
+}
+
 body, html {
     min-width: 310px;
     height: 100%;
     margin: 0;
+    color: var(--dark-white);
 }
 
 #main {
     box-shadow: 0 3px 6px 0 #0000001e, 0 8px 16px 0 #0000002f;
     right: 0;
-    background-color: #f0f0f0;
+    background-color: var(--dark-gray);
 
     position: relative;
     transition-timing-function: linear;
@@ -29,7 +42,7 @@ body, html {
 #sideNav a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: var(--light-gray);
     font-family: "Biko", "Helvetica", "Arial", "sans-serif";
     font-size: 26px;
 
@@ -37,7 +50,7 @@ body, html {
     text-align: center;
 }
 #sideNav a:hover {
-    color: #555555;
+    color: var(--white);
 }
 
 
@@ -56,7 +69,7 @@ body, html {
     position: relative;
     width: 100%;
     height: 140px;
-    background-color: white;
+    background-color: var(--gray);
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -88,7 +101,7 @@ body, html {
 #profileName {
     font-size: 60px;
     font-weight: bold;
-    color: black;
+    color: var(--light-gray);
     text-decoration: none;
     
     display: inline-block;
@@ -96,7 +109,7 @@ body, html {
     vertical-align: middle;
 }
 #profileName:hover {
-    color: #393939;
+    color: var(--white);
 }
 
 .pageLink {
@@ -112,11 +125,12 @@ body, html {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #444;
+    color: var(--white);
+    background-color: var(--orange);
     font-size: 1.2em;
 }
 .pageLink:hover {
-    background-color: #f9f9f9;
+    background-color: var(--light-orange);
 }
 
 #hamburgerIcon {
@@ -125,7 +139,7 @@ body, html {
     bottom: -5px;
 }
 #hamburgerIcon:hover {
-    color: #393939;
+    color: var(--white);
     cursor: pointer;
 }
 
@@ -137,13 +151,13 @@ body, html {
 
 .charm {
     font-size: 20px;
-    color: #aaaaaa;
+    color: var(--mid-gray);
     text-decoration: none;
     margin: 4px;
     vertical-align: middle;
 }
 .charm:hover {
-    color: black;
+    color: var(--white);
 }
 .fa-twitter:hover {
     color: #1da1f2;

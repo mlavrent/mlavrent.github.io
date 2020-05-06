@@ -1,0 +1,20 @@
+background: #2d2d2d
+header-bg: #393939
+
+name: #aaa
+namehover: #f5f5f5
+
+navlinks
+ - bg: #f48024
+ - text: #f5f5f5
+ - hover: #ff901e
+
+
+charm: #aaa
+charm-hover: #f5f5f5
+
+hamburgerIcon:
+ - normal: #f5f5f5
+
+sideNav
+ - 
