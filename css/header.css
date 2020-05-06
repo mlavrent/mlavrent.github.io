@@ -6,6 +6,7 @@
     --gray: #393939;
     --darker-gray: #323232;
     --dark-gray: #2d2d2d;
+    --darkest-gray: #1d1d1d;
 
     --accent: #f48024;
     --light-accent: #ff901e;
@@ -28,6 +29,7 @@ body, html {
     height: 100%;
     margin: 0;
     color: var(--dark-white);
+    background-color: var(--darkest-gray);
 }
 
 #main {
@@ -39,7 +41,7 @@ body, html {
     transition-timing-function: linear;
     transition: right 0.5s;
     z-index: 2;
-    padding: 1px;
+    min-height: 100%;
 }
 #sideNav {
     display: none;
