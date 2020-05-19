@@ -15,14 +15,14 @@
     --dark-blue:
 }
 
-::selection {
-    background-color: var(--muted-accent);
-    color: var(--white);
-}
-::-moz-selection {
-    background-color: var(--muted-accent);
-    color: var(--white);
-}
+    ::selection {
+        background-color: var(--muted-accent);
+        color: var(--white);
+    }
+    ::-moz-selection {
+        background-color: var(--muted-accent);
+        color: var(--white);
+    }
 
 body, html {
     min-width: 310px;

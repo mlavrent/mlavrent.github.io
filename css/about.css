@@ -55,12 +55,26 @@ table th {
 }
 
 #content {
-    margin: 40px auto;
-    max-width: 700px;
+    margin: 10px auto;
+    max-width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section {
+    max-width: 500px;
+    margin: 20px;
+    width: 600px;
+}
+
+.section p {
+    font-size: 20px;
+    line-height: 1.35em;
 }
 
 .experience {
-    margin: 30px;
+    margin: 30px 10px;
     display: flex;
 }
 

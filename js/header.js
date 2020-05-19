@@ -19,7 +19,8 @@ function setHeader() {
         hideHamburger();
         growTitle();
     } else {
-        name.text("mlavrentyev");
+        // name.text("mlavrentyev");
+        name.text("mark")
         hideHamburger();
         growTitle();
     }
