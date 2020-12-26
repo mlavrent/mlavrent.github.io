@@ -32,6 +32,10 @@ body, html {
     background-color: var(--darkest-gray);
 }
 
+a {
+    color: #358daa;    
+}
+
 #main {
     box-shadow: 0 3px 6px 0 #0000001e, 0 8px 16px 0 #0000002f;
     right: 0;
