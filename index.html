@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mark Lavrentyev">
     <title>Mark Lavrentyev</title>
-
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
-    <!-- My stylesheets -->
-    <link rel="icon" type="image/x-icon" href="favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="css/projects.css"/>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/about.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
           crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script>
         $(function () {
@@ -23,58 +19,124 @@
     </script>
 </head>
 <body>
-<div id="main">
-    <div id="outerHeader"></div>
-    <div id="projectList">
-        <div class="project" onclick="window.location='https://github.com/MLavrentyev/DinoNet'">
-            <div>
-                <h2>Chrome Dino Player</h2>
-                <p>A convolutional neural network built with Keras to play Chrome's no internet dino game.</p>
+    <div id="main">
+        <div id="outerHeader"></div>
+        <div id="content">
+            <div class="section">
+                <h3>Who I am</h3>
+                <p>Hey! I'm Mark, a junior studying math and computer science at Brown University.
+                   I'm currently interested in formal methods and programming languages.
+                   My favorite programming language is <a href="https://racket-lang.org/">Racket</a>.</p>
+                <p>In my free time, I enjoy building race cars as part of
+                   <a href="https://www.brown.edu/Departments/Engineering/Organizations/fsae/">Brown's FSAE team</a>
+                   and riding my bike. I'm also always on the lookout for good maple syrup.</p>
             </div>
-            <img src="img/projects/dino.png" alt="Chrome dino player"/>
-        </div>
-        <div class="project" onclick="window.location='https://github.com/ArYalavarti/drawbridge'">
-            <div>
-                <h2>Drawbridge</h2>
-                <p>An app to help people find carpools and split costs on their trips.</p>
+            <div class="section">
+                <h3>Work Experience</h3>
+                <div class="experience">
+                    <img height="75" width="75" src="img/companies/str.jpeg" alt="STR logo" />
+                    <div class="exp-desc">
+                        <span class="position">Computational Research Intern</span></br>
+                        <span class="company">Systems & Technology Research</span></br>
+                        <span class="timeline">Spring 2021</span>
+                    </div>
+                </div>
+                <div class="experience">
+                    <img height="75" width="75" src="img/companies/ms.png" alt="Microsoft logo" />
+                    <div class="exp-desc">
+                        <span class="position">Software Engineering Intern</span></br>
+                        <span class="company">Microsoft</span></br>
+                        <span class="timeline">Summer 2020, Summer 2021</span>
+                    </div>
+                </div>
+                <div class="experience">
+                    <img height="75" width="75" src="img/companies/fid.png" alt="Fidelity logo"/>
+                    <div class="exp-desc">
+                        <span class="position">Data Engineering Intern</span></br>
+                        <span class="company">Fidelity Investments</span></br>
+                        <span class="timeline">Summer 2019</span>
+                    </div>
+                </div>
+                <div class="experience">
+                    <img height="75" width="75" src="img/companies/afrl.png" alt="AFRL logo"/>
+                    <div class="exp-desc">
+                        <span class="position">Wright Scholar</span></br>
+                        <span class="company">Air Force Research Lab</span></br>
+                        <span class="timeline">Summer 2017</span>
+                    </div>
+                </div>
             </div>
-            <img src="img/projects/drawbridge.png" alt="Drawbridge logo"/>
-        </div>
-        <div class="project" onclick="window.location='https://github.com/MLavrentyev/MNIST-Neural-Net'">
-            <div>
-                <h2>MNIST Digit Classifier</h2>
-                <p>A classifier for handwritten digits trained on the MNIST set.
-                    All the algorithms were written without using a framework.</p>
+            <div class="section">
+                <h3>Coursework</h3>
+                <table id="classes">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Course</th>
+                            <th>Semester</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>csci 0190</td>
+                            <td>Accelerated Intro to CS</td>
+                            <td>Fall '18</td>
+                        </tr>
+                        <tr>
+                            <td>csci 0320</td>
+                            <td>Intro to Software Engineering</td>
+                            <td>Spring '19</td>
+                        </tr>
+                        <tr>
+                            <td>csci 1950y</td>
+                            <td>Logic for Systems</td>
+                            <td>Spring '19</td>
+                        </tr>
+                        <tr>
+                            <td>csci 1470</td>
+                            <td>Deep Learning</td>
+                            <td>Fall '19</td>
+                        </tr>
+                        <tr>
+                            <td>csci 1730</td>
+                            <td>Programming Languages</td>
+                            <td>Fall '19</td>
+                        </tr>
+                        <tr>
+                            <td>csci 1550</td>
+                            <td>Probabilistic Methods in CS</td>
+                            <td>Spring '20</td>
+                        </tr>
+                        <tr>
+                            <td>csci 2951o</td>
+                            <td>Prescriptive Analytics</td>
+                            <td>Spring '20</td>
+                        </tr>
+                        <tr>
+                            <td>math 1530</td>
+                            <td>Abstract Algebra</td>
+                            <td>Spring '20</td>
+                        </tr>
+                        <tr>
+                            <td>csci 0330</td>
+                            <td>Intro to Computer Systems</td>
+                            <td>Fall '20</td>
+                        </tr>
+                        <tr>
+                            <td>math 1410</td>
+                            <td>Topology</td>
+                            <td>Fall '20</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- <span><i>* - denotes in progress course</i></span> -->
             </div>
-            <img src="img/projects/mnist.png" alt="MNIST classifier"/>
-        </div>
-        <div class="project" onclick="window.location='https://github.com/MLavrentyev/TeamManager'">
-            <div>
-                <h2>Purchase Request Manager</h2>
-                <p>A website for teams to track purchase requests from approval to delivery.</p>
-            </div>
-            <img src="img/projects/prmanager.png" alt="Purchase Request Manager"/>
-        </div>
-        <div class="project" onclick="window.location='https://github.com/MLavrentyev/mlavrentyev.github.io'">
-            <div>
-                <h2>This website</h2>
-                <p>My personal site showing off my projects, creations, and other knick-knacks about me.</p>
-            </div>
-            <img src="img/projects/personalsite.png" alt="Personal site"/>
-        </div>
-        <div class="project" onclick="window.location='https://github.com/MLavrentyev/NewTab'">
-            <div>
-                <h2>New Tab Page</h2>
-                <p>A new tab page with hotlinks, the time, and an image of the nearest city.</p>
-            </div>
-            <img src="img/projects/newtab.png" alt="New Tab Page"/>
         </div>
     </div>
-</div>
-<div id="sideNav">
-    <a href="index.html">about me</a>
-    <a href="projects.html">projects</a>
-    <a href="data/resume.pdf">résumé</a>
-</div>
+    <div id="sideNav">
+        <a href="index.html">about me</a>
+        <a href="projects.html">projects</a>
+        <a href="data/resume.pdf">résumé</a>
+    </div>
 </body>
 </html>
