@@ -47,10 +47,10 @@ table th {
     color: white;
 }
 
-#classes td:nth-child(1), #classes td:nth-child(3), #classes th:nth-child(1), #classes th:nth-child(3){
+.classes td:nth-child(1), .classes td:nth-child(3), .classes th:nth-child(1), .classes th:nth-child(3){
     text-align: center;
 }
-#classes td:nth-child(2) {
+.classes td:nth-child(2) {
     width: 400px;
 }
 
