@@ -52,6 +52,7 @@ table th {
 }
 .classes td:nth-child(2) {
     width: 400px;
+    text-align: center;
 }
 
 #content {
